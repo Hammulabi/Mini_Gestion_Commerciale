@@ -2,7 +2,7 @@
 
 ## 📚 Présentation du projet
 Ce projet est une application **Java en mode console** permettant de gérer une **mini gestion commerciale**.  
-Il a été réalisé dans le cadre du module **Programmation Orientée Objet (POO)** et respecte les consignes fournies.
+Il a été réalisé dans le cadre d'un **Programmation Orientée Objet (POO)** et respecte les consignes fournies.
 
 L’application permet :
 - la gestion des **clients**, **produits** et **factures**,
