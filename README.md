@@ -59,6 +59,7 @@ L’application fonctionne **exclusivement en mode console** et propose :
 
 ## 🗂️ Structure du projet
 
+```
 Mini Gestion Commerciale
 ├── data/
 │ ├── clients.csv
@@ -81,7 +82,7 @@ Mini Gestion Commerciale
 │ └── itextpdf-5.5.13.3.jar
 ├── .gitignore
 └── README.md
-
+```
 
 ---
 
