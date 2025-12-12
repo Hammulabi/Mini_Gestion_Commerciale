@@ -89,7 +89,6 @@ public class GestionFacture {
         }
     }
 
-    // CRUD
     public void creerFacture(Facture facture) {
         factures.add(facture);
         sauvegarderFactures();
