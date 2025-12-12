@@ -127,7 +127,7 @@ public class Main {
             System.out.println("4. Afficher le détail d'une facture");
             System.out.println("5. Rechercher une facture par ID");
             System.out.println("6. Supprimer une facture");
-            System.out.println("7. Générer PDF (si GeneratorPDF existe)");
+            System.out.println("7. Générer un PDF");
             System.out.println("8. Recharger depuis le fichier");
             System.out.println("9. Sauvegarder dans le fichier");
             System.out.println("0. Retour au menu principal");
