@@ -1,6 +1,6 @@
-# 📦 Mini Gestion Commerciale – Java (Console)
+# Mini Gestion Commerciale – Java (Console)
 
-## 📚 Présentation du projet
+## Présentation du projet
 Ce projet est une application **Java en mode console** permettant de gérer une **mini gestion commerciale**.  
 Il a été réalisé dans le cadre d'un **Programmation Orientée Objet (POO)** et respecte les consignes fournies.
 
@@ -11,7 +11,7 @@ L’application permet :
 
 ---
 
-## 🎯 Objectifs pédagogiques
+## Objectifs pédagogiques
 - Mettre en pratique la **programmation orientée objet en Java**
 - Manipuler les **collections Java** (`List`, `ArrayList`, `Map`)
 - Lire et écrire des **fichiers texte CSV**
@@ -20,9 +20,9 @@ L’application permet :
 
 ---
 
-## 🧩 Fonctionnalités
+## Fonctionnalités
 
-### 👤 Gestion des clients
+### Gestion des clients
 - Ajouter un client  
 - Afficher la liste des clients  
 - Rechercher un client par ID  
@@ -30,7 +30,7 @@ L’application permet :
 - Charger les clients depuis un fichier CSV  
 - Enregistrer les clients dans un fichier CSV  
 
-### 📦 Gestion des produits
+### Gestion des produits
 - Ajouter un produit  
 - Afficher la liste des produits  
 - Rechercher un produit par ID  
@@ -38,7 +38,7 @@ L’application permet :
 - Charger les produits depuis un fichier CSV  
 - Enregistrer les produits dans un fichier CSV  
 
-### 🧾 Gestion des factures
+### Gestion des factures
 - Créer une facture associée à un client  
 - Ajouter des produits à une facture avec quantité  
 - Afficher le détail d’une facture et son total  
@@ -49,7 +49,7 @@ L’application permet :
 
 ---
 
-## 🖥️ Interface utilisateur
+## Interface utilisateur
 L’application fonctionne **exclusivement en mode console** et propose :
 - un **menu principal**
 - des **sous-menus** pour les clients, produits et factures
@@ -57,7 +57,7 @@ L’application fonctionne **exclusivement en mode console** et propose :
 
 ---
 
-## 🗂️ Structure du projet
+## Structure du projet
 
 ```
 Mini Gestion Commerciale
@@ -86,7 +86,7 @@ Mini Gestion Commerciale
 
 ---
 
-## 🗃️ Format des fichiers CSV
+## Format des fichiers CSV
 
 ### `clients.csv`
 idclient;nom;prenom;email;adresse;codepostal;ville
@@ -99,7 +99,7 @@ idfacture;datefacture;idclient;idProduit|quantite,idProduit|quantite
 
 ---
 
-## 📄 Génération de PDF
+## Génération de PDF
 La génération des factures PDF est réalisée avec la librairie **iText 5** (`com.itextpdf.text.*`).
 
 Chaque facture PDF contient :
@@ -113,7 +113,7 @@ Les fichiers PDF sont générés dans le dossier `data/`.
 
 ---
 
-## ⚙️ Contraintes techniques respectées
+## Contraintes techniques respectées
 - Java (mode console)
 - Programmation orientée objet
 - Utilisation des collections Java
@@ -123,7 +123,7 @@ Les fichiers PDF sont générés dans le dossier `data/`.
 
 ---
 
-## 🧪 Lancement du projet
+## Lancement du projet
 1. Ouvrir le projet dans **IntelliJ IDEA**
 2. Vérifier que `itextpdf-5.5.13.3.jar` est bien ajouté aux dépendances
 3. Lancer la classe :
